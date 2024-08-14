@@ -1,0 +1,25 @@
+{
+    "id" : "7d4cf535-2bf1-4b7e-9f6b-95311fa6a8f6",
+    "name" : "session",
+    "request" : {
+      "url" : "/session",
+      "method" : "POST",
+      "bodyPatterns" : [ {
+        "equalToJson" : "{\"sessionId\":\"5060240b-3ef9-4f74-bd5a-b70d4f3a260a-a\",\"hashes\":[\"RESERVATION\",\"CONFIG_VERSION\",\"REPRICE_RESULT\",\"BAGGAGE_ALLOWANCE\",\"WP_BAG_ALLOWANCE\",\"CARRY_ON_ALLOWANCE\",\"EMBARGO_INFO\",\"BAGGAGE_ALLOWANCE_GBI\",\"MUTATION_RULES\"],\"sessionLock\":null}",
+        "ignoreArrayOrder" : true,
+        "ignoreExtraElements" : true
+      } ]
+    },
+    "response" : {
+      "status" : 200,
+      "body" : "{\"data\":[]}",
+      "headers" : {
+        "x-request-id" : "72fd3aaa-f649-40dd-b725-dae10f2aea8d",
+        "content-type" : "application/json",
+        "date" : "Mon, 12 Aug 2024 12:12:47 GMT"
+      }
+    },
+    "uuid" : "7d4cf535-2bf1-4b7e-9f6b-95311fa6a8f6",
+    "persistent" : true,
+    "insertionIndex" : 199
+  }

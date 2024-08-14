@@ -1,0 +1,25 @@
+{
+  "id" : "b81a4aec-ca9b-45a2-9fa9-f192ebbe89c1",
+  "name" : "session",
+  "request" : {
+    "url" : "/session",
+    "method" : "POST",
+    "bodyPatterns" : [ {
+      "equalToJson" : "{\"sessionId\":\"5060240b-3ef9-4f74-bd5a-b70d4f3a260a-a:VADX\",\"hashes\":[\"USER_PROFILE\",\"IS_LOGGED_OUT\"],\"sessionLock\":null}",
+      "ignoreArrayOrder" : true,
+      "ignoreExtraElements" : true
+    } ]
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"data\":[]}",
+    "headers" : {
+      "x-request-id" : "99efdecf-8ea0-4fe4-8d58-551175973d39",
+      "content-type" : "application/json",
+      "date" : "Mon, 12 Aug 2024 12:12:47 GMT"
+    }
+  },
+  "uuid" : "b81a4aec-ca9b-45a2-9fa9-f192ebbe89c1",
+  "persistent" : true,
+  "insertionIndex" : 202
+}
